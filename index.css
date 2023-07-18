@@ -1,0 +1,33 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit';
+}
+
+body{
+    height: 100vh !important;
+    background-color: hsl(212, 45%, 89%) !important;
+}
+
+.box{
+    height: 65%;
+    width: min(300px, 90%);
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    padding: 0.8em !important;
+}
+.fs-cust{
+    font-size: 1.1rem!important;
+}
+.qr-1{
+    height: 57%;
+    width: 100%;
+    background-image: url('./images/image-qr-code.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+}
